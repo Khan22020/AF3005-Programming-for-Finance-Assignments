@@ -1,141 +1,148 @@
-Smart Financial Management System
+# Smart Financial Management System
 
-Overview
+## Overview
 
-SecureBank's Smart Financial Management System is an interactive Python-based tool that helps customers manage their financial activities. The system is designed to:
+SecureBank's **Smart Financial Management System** is an interactive Python-based tool that helps customers manage their financial activities. The system is designed to:
 
-✅ Assess customer eligibility for loans.
-✅ Classify investment portfolios based on risk.
-✅ Automate loan repayment tracking.
-✅ Monitor stock market trends and trigger alerts.
-✅ Track currency exchange rates and suggest conversions.
+✅ Assess customer eligibility for loans. ✅ Classify investment portfolios based on risk. ✅ Automate loan repayment tracking. ✅ Monitor stock market trends and trigger alerts. ✅ Track currency exchange rates and suggest conversions.
 
-The project utilizes Python and ipywidgets to provide an interactive user experience.
+The project utilizes **Python** and **ipywidgets** to provide an interactive user experience.
 
-Features & Functionality
+---
 
-1. Loan Eligibility & Interest Rate Calculation
+## Features & Functionality
 
-Objective:
+### 1. Loan Eligibility & Interest Rate Calculation
 
-Determine whether a customer qualifies for a loan.
+**Objective:**
 
-Calculate the applicable interest rate based on credit score.
+- Determine whether a customer qualifies for a loan.
+- Calculate the applicable interest rate based on credit score.
 
-Logic:
+**Logic:**
 
-The applicant must be employed.
+- The applicant must be **employed**.
+- Minimum required income is **PKR 50,000**.
+- Credit score evaluation:
+  - **750+** → **5% Interest Rate** (Approved)
+  - **650 - 749** → **8% Interest Rate** (Approved)
+  - **Below 650** → **Loan Rejected**
 
-Minimum required income is PKR 50,000.
+**Implementation:**
 
-Credit score evaluation:
+- Uses `ipywidgets` for employment status, income, and credit score input.
+- Displays approval/rejection with interest rate if eligible.
 
-750+ → 5% Interest Rate (Approved)
+---
 
-650 - 749 → 8% Interest Rate (Approved)
+### 2. Investment Risk Assessment
 
-Below 650 → Loan Rejected
+**Objective:**
 
-Implementation:
+- Classify stock portfolios into **High, Medium, or Low Risk**.
 
-Uses ipywidgets for employment status, income, and credit score input.
+**Logic:**
 
-Displays approval/rejection with interest rate if eligible.
+- **High Risk:** If any stock return is negative.
+- **Medium Risk:** If all returns are positive, but at least one is below 5%.
+- **Low Risk:** If all returns are 5% or above.
 
-2. Investment Risk Assessment
+**Implementation:**
 
-Objective:
+- Takes user input for stock returns via `ipywidgets`.
+- Processes input and categorizes the risk level.
 
-Classify stock portfolios into High, Medium, or Low Risk.
+---
 
-Logic:
+### 3. Loan Repayment Tracker
 
-High Risk: If any stock return is negative.
+**Objective:**
 
-Medium Risk: If all returns are positive, but at least one is below 5%.
+- Simulate loan repayment and track the outstanding balance after each monthly payment.
 
-Low Risk: If all returns are 5% or above.
+**Logic:**
 
-Implementation:
+- The user enters an **initial loan balance** and a **fixed monthly payment**.
+- The system deducts the payment monthly and displays the remaining balance.
+- Stops once the loan is fully repaid.
 
-Takes user input for stock returns via ipywidgets.
+**Implementation:**
 
-Processes input and categorizes the risk level.
+- Uses a `while` loop to decrement the balance.
+- Displays real-time tracking of loan payments.
 
-3. Loan Repayment Tracker
+---
 
-Objective:
+### 4. Stock Price Monitoring & Trading Strategy
 
-Simulate loan repayment and track the outstanding balance after each monthly payment.
+**Objective:**
 
-Logic:
+- Monitor stock prices and trigger an alert when the price reaches **PKR 200**.
 
-The user enters an initial loan balance and a fixed monthly payment.
+**Logic:**
 
-The system deducts the payment monthly and displays the remaining balance.
+- Iterates through a **list of stock prices**.
+- Skips missing values (`None`) using `continue`.
+- Stops tracking when a stock price reaches **PKR 200**.
 
-Stops once the loan is fully repaid.
+**Implementation:**
 
-Implementation:
+- Uses a `for` loop and handles missing data.
+- Displays stock price alerts dynamically.
 
-Uses a while loop to decrement the balance.
+---
 
-Displays real-time tracking of loan payments.
+### 5. Currency Exchange Rate Tracker
 
-4. Stock Price Monitoring & Trading Strategy
+**Objective:**
 
-Objective:
+- Track the **PKR/USD exchange rate** daily.
 
-Monitor stock prices and trigger an alert when the price reaches PKR 200.
+**Logic:**
 
-Logic:
+- Starts at **PKR 290/USD**.
+- Increases by **1 PKR per day**.
+- Stops when it reaches **PKR 300/USD**.
 
-Iterates through a list of stock prices.
+**Implementation:**
 
-Skips missing values (None) using continue.
+- Uses a `while` loop for daily tracking.
+- Displays real-time exchange rate updates.
 
-Stops tracking when a stock price reaches PKR 200.
+---
 
-Implementation:
+## Technologies Used
 
-Uses a for loop and handles missing data.
+- **Python 3**
+- **ipywidgets** (for user interaction)
+- **Jupyter Notebook / Google Colab** (for execution)
 
-Displays stock price alerts dynamically.
+---
 
-5. Currency Exchange Rate Tracker
+## How to Run the Project
 
-Objective:
+1. Install dependencies:
+   ```bash
+   pip install ipywidgets
+   ```
+2. Open the Jupyter Notebook or Google Colab.
+3. Run each section interactively.
 
-Track the PKR/USD exchange rate daily.
+---
 
-Logic:
+## Future Enhancements
 
-Starts at PKR 290/USD.
+🔹 Integrate with a **real-time financial API**. 🔹 Add **visual charts** for better data representation. 🔹 Enhance **loan tracking** with **customized repayment plans**.
 
-Increases by 1 PKR per day.
+---
 
-Stops when it reaches PKR 300/USD.
+## License
 
-Implementation:
+This project is licensed under the **MIT License**.
 
-Uses a while loop for daily tracking.
+---
 
-Displays real-time exchange rate updates.
+## Contributors
 
-Technologies Used
+Developed by **Mohadis Khan**. 🚀
 
-Python 3
-
-ipywidgets (for user interaction)
-
-Jupyter Notebook / Google Colab (for execution)
-
-How to Run the Project
-
-Install dependencies:
-
-pip install ipywidgets
-
-Open the Jupyter Notebook or Google Colab.
-
-Run each section interactively.
