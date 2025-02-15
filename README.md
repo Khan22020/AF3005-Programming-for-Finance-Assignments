@@ -57,7 +57,6 @@ AF3005-Programming-for-Finance-Assignments/
 This project is open-source and available under the **MIT License**. Feel free to use and modify it, but kindly retain author credits.
 
 ## 🤝 Acknowledgments
-- **Instructor:** Dr. Usama Arshad (Assistant Professor, FSM)
 - **University:** FAST National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad
 
 📌 For any questions or contributions, feel free to reach out or fork this repository!
