@@ -1,7 +1,6 @@
 **# AF3005 – Programming for Finance**  
 **Instructor: Dr. Usama Arshad**  
 
-## 📂 GitHub Repository & Documentation
 
 ### 📌 Project Overview
 This project is developed as part of the **AF3005 – Programming for Finance** course under the guidance of **Dr. Usama Arshad**. The application is designed to assist individuals and businesses in making better financial decisions by offering various financial modules with real-time data visualization and analysis. 
