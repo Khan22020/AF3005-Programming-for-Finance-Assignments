@@ -61,7 +61,6 @@ Access the live version of the project here: **[https://i222273mohadiskhanaf3005
 ---
 
 ### 📸 Screenshots / Demo Video
-![Screenshot of the Application](screenshot.png)  
-[Click here to watch the demo video](Video Link)
+[Click here to watch the video](https://www.linkedin.com/posts/mohaddis-khan-66716725a_fintech-programmingforfinance-python-activity-7311726768200011777-n2Kb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-9RO8BwDF-_3L_pBQdS7YAWBeYQXbHkNI)
 
 ---
