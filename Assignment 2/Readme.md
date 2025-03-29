@@ -65,21 +65,3 @@ Access the live version of the project here: **[https://i222273mohadiskhanaf3005
 [Click here to watch the demo video](Video Link)
 
 ---
-
-
-## 📢 LinkedIn Post Details
-
-🚀 Excited to share my latest project developed for **AF3005 – Programming for Finance** under the guidance of **Dr. Usama Arshad** at FAST NUCES, Islamabad! 🎓
-
-📌 **Project Overview:**
-This project provides financial analysis tools with interactive data visualization, making financial decision-making easier! Built using **Python & Streamlit**, it offers real-time data insights and a smooth user experience.
-
-🔗 **GitHub Repository:** [GitHub Repository Link]  
-🔗 **Live App:** [Streamlit App Link]  
-
-📽️ **Check out the demo video here:** [Video Link]  
-
-Huge thanks to **Dr. Usama Arshad** for the guidance and support! Looking forward to learning and growing in the field of **FinTech & Programming for Finance**! 🚀📊
-
-#FinTech #ProgrammingForFinance #Python #Streamlit #FASTNUCES #AF3005
-
