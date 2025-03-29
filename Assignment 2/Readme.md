@@ -56,7 +56,7 @@ Ensure you have the following installed:
 ---
 
 ### 🌍 Deployment Link
-Access the live version of the project here: **[Streamlit App URL]**
+Access the live version of the project here: **[https://i222273mohadiskhanaf3005assignment2premiumfinancialbusinessapp.streamlit.app/]**
 
 ---
 
@@ -66,10 +66,6 @@ Access the live version of the project here: **[Streamlit App URL]**
 
 ---
 
-### 🔗 GitHub Repository
-Find the full source code at: **[GitHub Repository Link]**
-
----
 
 ## 📢 LinkedIn Post Details
 
