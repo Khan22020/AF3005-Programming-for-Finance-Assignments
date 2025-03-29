@@ -4,14 +4,30 @@
 ## 📂 GitHub Repository & Documentation
 
 ### 📌 Project Overview
-This project is developed as part of the **AF3005 – Programming for Finance** course under the guidance of **Dr. Usama Arshad**. The application provides financial analysis tools, data visualization, and calculations essential for financial decision-making.
+This project is developed as part of the **AF3005 – Programming for Finance** course under the guidance of **Dr. Usama Arshad**. The application is designed to assist individuals and businesses in making better financial decisions by offering various financial modules with real-time data visualization and analysis. 
 
-### 🚀 Features
-- Interactive financial dashboards
-- Data visualization using charts and graphs
-- Real-time financial data integration (if applicable)
-- User-friendly interface
-- Built using **Streamlit & Python**
+### 🔍 Key Functionalities:
+- **Loan Processing Module:**
+  - Loan eligibility checker based on employment status, income, and credit score.
+  - EMI (Equated Monthly Installment) calculator with interest rate differentiation.
+  - Detailed loan repayment schedule with interactive charts.
+  
+- **Investment Risk Analysis:**
+  - Assessment of portfolio risk based on historical stock returns.
+  - Classification into high, medium, or low-risk investments.
+  - Interactive visualization of stock return distributions.
+
+- **Currency Exchange Rate Tracker:**
+  - Real-time tracking of currency exchange rates.
+  - Graphical representation of exchange rate trends.
+  - Predictive modeling for exchange rate forecasting.
+
+- **Financial Dashboard:**
+  - Consolidated insights into various financial metrics.
+  - Data-driven decision-making with professional visualization.
+  - User-friendly and intuitive interface for business and personal finance.
+
+Built using **Streamlit & Python**, this project ensures a seamless and interactive user experience while leveraging financial principles to offer practical solutions.
 
 ---
 
@@ -64,10 +80,10 @@ Find the full source code at: **[GitHub Repository Link]**
 📌 **Project Overview:**
 This project provides financial analysis tools with interactive data visualization, making financial decision-making easier! Built using **Python & Streamlit**, it offers real-time data insights and a smooth user experience.
 
-🔗 **GitHub Repository:** [GitHub Repository Link]
-🔗 **Live App:** [Streamlit App Link]
+🔗 **GitHub Repository:** [GitHub Repository Link]  
+🔗 **Live App:** [Streamlit App Link]  
 
-📽️ **Check out the demo video here:** [Video Link]
+📽️ **Check out the demo video here:** [Video Link]  
 
 Huge thanks to **Dr. Usama Arshad** for the guidance and support! Looking forward to learning and growing in the field of **FinTech & Programming for Finance**! 🚀📊
 
