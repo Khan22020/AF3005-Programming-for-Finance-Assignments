@@ -1,5 +1,4 @@
-**# AF3005 – Programming for Finance**  
-**Instructor: Dr. Usama Arshad**  
+# Premium Financial Business App
 
 
 ### 📌 Project Overview
